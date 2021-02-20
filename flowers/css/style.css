@@ -510,6 +510,12 @@ section {
     margin-top: 20px;
     overflow: hidden;
   }
+  .hero-title {
+    font-size: 18px;
+  }
+  .hero-description {
+    font-size: 14px;
+  }
   section {
     overflow-x: hidden;
   }
@@ -518,6 +524,7 @@ section {
   }
   .number {
     text-align: center;
+    margin-top: 20px;
   }
   .delivery-footer {
     text-align: center;
@@ -534,12 +541,18 @@ section {
   .social {
     text-align: center;
   }
+  .offer,
+  .offer-call,
+  address {
+    font-size: 14px;
+  }
 
   .footer {
     text-align: center;
   }
   .number-footer {
     text-align: center;
+    margin-top: 20px;
   }
 
   .cards {
@@ -551,4 +564,3 @@ section {
     text-align: center;
   }
 }
-
