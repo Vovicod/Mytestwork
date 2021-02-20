@@ -1,21 +1,20 @@
 let sliderFlower = new Swiper(".slider-flowers", {
-  slidesPerView: 6,
+  // slidesPerView: 6,
   slidesPerGroup: 1,
   loop: true,
   loopFillGroupWithBlank: true,
+  spaceBetween: 200,
 
   breakpoints: {
     1400: {
       slidesPerView: 6,
-
-      // spaceBetween: 100,
     },
     980: {
       slidesPerView: 4,
-    },
-    770: {
-      slidesPerView: 3,
       spaceBetween: 0,
+    },
+    576: {
+      slidesPerView: 3,
     },
   },
 
