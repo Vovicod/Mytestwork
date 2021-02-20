@@ -158,6 +158,7 @@ section {
   margin-bottom: 50px;
 }
 /****** SliderTwo ******/
+
 .slider-reviews {
   width: 900px;
   max-width: 100%;
@@ -507,13 +508,19 @@ section {
   .header {
     text-align: center;
     margin-top: 20px;
+    overflow: hidden;
+  }
+  section {
+    overflow-x: hidden;
+  }
+  .container {
+    padding-left: 0px;
   }
   .number {
     text-align: center;
   }
   .delivery-footer {
     text-align: center;
-    
   }
   .delivery {
     text-align: center;
@@ -521,10 +528,27 @@ section {
   .department {
     text-align: center;
   }
+  .footer-list {
+    justify-content: center;
+  }
+  .social {
+    text-align: center;
+  }
+
   .footer {
     text-align: center;
   }
   .number-footer {
     text-align: center;
   }
+
+  .cards {
+    max-width: 250px;
+    margin: 27px auto;
+  }
+  .reviews-text {
+    width: 300px;
+    text-align: center;
+  }
 }
+
