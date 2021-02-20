@@ -4,6 +4,7 @@ body {
   color: #fff;
   font-family: "GothamPro", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: "GothamPro-lite";
@@ -43,11 +44,8 @@ section {
 }
 
 /* Анимация */
-.numanim {
-  transform: translate(250px, 0px);
-  transition: all 0.8s ease 0s;
-}
-.numanim._active {
+
+.number-footer._active {
   transform: translate(0px, 0px);
 }
 /* /Анимация */
@@ -438,7 +436,6 @@ section {
   background-color: #fff;
   color: #000;
   text-align: left;
-  /* padding: ; */
 }
 .logo {
   line-height: 90px;
@@ -446,6 +443,9 @@ section {
 
 .number-footer {
   text-align: end;
+  transform: translate(250px, 0px);
+  transition: all 0.8s ease 0s;
+  overflow: hidden;
 }
 .number-footer a {
   text-decoration: none;
@@ -475,6 +475,7 @@ section {
 .logoanim {
   transform: translate(-250px, 0px);
   transition: all 0.8s ease 0s;
+  overflow: hidden;
 }
 .logoanim._active {
   transform: translate(0px, 0px);
@@ -486,6 +487,8 @@ section {
 @media (max-width: 1700px) {
   body {
     background-image: url("../image/backgroundMedia.jpg");
+    background-size: cover;
+    overflow-x: hidden;
   }
 }
 @media (max-width: 1200px) {
@@ -500,6 +503,28 @@ section {
     margin: 0 auto;
   }
 }
-
-@media (max-width: 768px) {
+@media (max-width: 770px) {
+  .header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .number {
+    text-align: center;
+  }
+  .delivery-footer {
+    text-align: center;
+    
+  }
+  .delivery {
+    text-align: center;
+  }
+  .department {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+  .number-footer {
+    text-align: center;
+  }
 }
